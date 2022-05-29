@@ -18,7 +18,7 @@ const Kegiatan = () => {
         <img className="w-full h-auto block" src={k2} alt="kegiatan 2" />
         <div className="absolute top-0 left-0 w-full h-full hover:bg-black/80 opacity-0 hover:opacity-100 hover:duration-300 text-white">
           <p className="white-space-normal text-xs md:text-sm font-bold flex justify-center items-center h-full text-center">
-            Santunan Anak Yatim Piatu
+            Santunan Orang Tua
           </p>
         </div>
       </div>
