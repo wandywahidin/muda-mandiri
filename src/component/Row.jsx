@@ -13,7 +13,7 @@ const Row = () => {
   };
   return (
     <div>
-      <h2 className="text-white font-bold md:text-xl p-4">Kegiatan</h2>
+      <h2 className="text-white font-bold md:text-xl p-4"> Galery Kegiatan</h2>
       <div className="relative flex items-center group">
         <MdChevronRight
           onClick={slideRight}
