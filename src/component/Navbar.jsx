@@ -35,7 +35,6 @@ const Navbar = () => {
                     <Link to='/acara' className=' mx-2 p-2'>Acara</Link>
                     <Link to='/download' className=' mx-2 p-2'>Download</Link>
                     <Link to='/contact' className=' mx-2 p-2'>Contact</Link>
-                    
                 </ul>
                 </div>}
             </div>

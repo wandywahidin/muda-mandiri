@@ -2,7 +2,7 @@ import React from "react";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import Kegiatan from "./Kegiatan";
 
-const Row = () => {
+const Row = ({data}) => {
   const slideRight = () => {
     const slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 500;
@@ -24,7 +24,7 @@ const Row = () => {
           id={"slider"}
           className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative"
         >
-            <Kegiatan />
+            <Kegiatan data={data} />
         </div>
         <MdChevronLeft
           onClick={slideLeft}
