@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Home from "./pages/Home";
 import Navbar from "./component/Navbar";
 import { Routes, Route } from "react-router-dom";
@@ -9,8 +9,7 @@ import Contact from "./pages/Contact";
 import dataJson from "./utils";
 
 function App() {
-  const [Data, setData] = useState(dataJson)
-  console.log(Data);
+  const Data = dataJson
   return (
     <div>
       <Navbar />
