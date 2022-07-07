@@ -18,11 +18,11 @@ const Navbar = () => {
         </Link>
         <div>
             <ul className='hidden md:flex flex-wrap justify-between font-bold text-gray-400'>
-                <Link to='/' className=' mx-2 p-2 hover:text-white hover:scale-110 focus:text-white focus:scale-110'>Home</Link>
-                <Link to='/struktur-organisasi' className=' mx-2 p-2 hover:text-white hover:scale-110 focus:text-white focus:scale-110'>Struktur Organisasi</Link>
-                <Link to='/acara' className=' mx-2 p-2 hover:text-white hover:scale-110 focus:text-white focus:scale-110'>Acara</Link>
-                <Link to='/download' className=' mx-2 p-2 hover:text-white hover:scale-110 focus:text-white focus:scale-110'>Download</Link>
-                <Link to='/contact' className=' mx-2 p-2 hover:text-white hover:scale-110 focus:text-white focus:scale-110'>Contact</Link>
+                <Link to='/' className=' mx-2 p-2 hover:text-white hover:scale-110 hover:border-b-2 hover:border-white focus:border-b-2 focus:border-white focus:text-white focus:scale-110'>Home</Link>
+                <Link to='/struktur-organisasi' className=' mx-2 p-2 hover:text-white hover:scale-110 hover:border-b-2 hover:border-white focus:border-b-2 focus:border-white focus:text-white focus:scale-110'>Struktur Organisasi</Link>
+                <Link to='/acara' className=' mx-2 p-2 hover:text-white hover:scale-110  hover:border-b-2 hover:border-white focus:border-b-2 focus:border-white focus:text-white focus:scale-110'>Acara</Link>
+                <Link to='/download' className=' mx-2 p-2 hover:text-white hover:scale-110 hover:border-b-2 hover:border-white focus:border-b-2 focus:border-white focus:text-white focus:scale-110'>Download</Link>
+                <Link to='/contact' className=' mx-2 p-2 hover:text-white hover:scale-110 hover:border-b-2 hover:border-white focus:border-b-2 focus:border-white focus:text-white focus:scale-110'>Contact</Link>
                 
             </ul>
             <div onClick={handleTogle} className='flex md:hidden'>
