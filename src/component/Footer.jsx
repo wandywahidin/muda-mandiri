@@ -42,7 +42,8 @@ const Footer = () => {
           Copyright &copy; 2022{" "}
         </p>
         <p className="text-xs">Karang Taruna Muda Mandiri. All Right Reserved </p>
-        <p className="text-xs">Design By Wandy</p>
+        <p className="text-xs">Design By <span><a className="text-white hover:scale-110" href="https://www.instagram.com/wandywahidin/" rel="noopener noreferrer"
+          target="_blank">Wandy</a></span></p>
       </div>
     </div>
   );
