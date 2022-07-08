@@ -11,7 +11,7 @@ import dataJson from "./utils";
 function App() {
   const Data = dataJson
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home data={Data}/>} />

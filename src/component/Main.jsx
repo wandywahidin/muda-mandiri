@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import bg from '../assets/bg.jpg'
 
 const Main = () => {
   return (
@@ -8,7 +7,6 @@ const Main = () => {
     <div className=' w-full h-[550px]'>
         <div className="w-full h-full">
             <div className='w-full h-[550px] absolute bg-gradient-to-r from-black '></div>
-            <img className='w-full h-full object-cover' src={bg} alt="background" />
         </div>
         <div className='absolute top-[15%] md:top-[20%] p-4 md:p-8'>
             <h1 className='text-white text-3xl md:text-5xl font-bold my-5'>PEMUDA MEMBANGUN DESA</h1>

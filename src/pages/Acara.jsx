@@ -1,5 +1,4 @@
 import React from "react";
-import bg from "../assets/bg.jpg";
 import { Lazy } from "react-lazy";
 
 const Acara = ({ data }) => {
@@ -8,11 +7,6 @@ const Acara = ({ data }) => {
       <div className="w-full h-[550px]">
         <div className="w-full h-full">
           <div className="w-full h-[550px] absolute bg-gradient-to-r from-black "></div>
-          <img
-            className="w-full h-full object-cover"
-            src={bg}
-            alt="background"
-          />
         </div>
         {/* santunan anak yatim */}
         <div className="w-full h-screen absolute top-3 mx-auto">
