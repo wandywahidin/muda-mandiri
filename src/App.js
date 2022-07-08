@@ -11,6 +11,7 @@ import dataJson from "./utils";
 function App() {
   const Data = dataJson
   return (
+    <>
     <div className="App">
       <Navbar />
       <Routes>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
       </Routes>
     </div>
+    </>
   );
 }
 

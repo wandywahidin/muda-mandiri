@@ -1,10 +1,11 @@
 import React from "react";
 import { Lazy } from "react-lazy";
+import Footer from "../component/Footer";
 
 const Acara = ({ data }) => {
   return (
     <>
-      <div className="w-full h-[550px]">
+      <div className="w-full h-full">
         <div className="w-full h-full">
           <div className="w-full h-[550px] absolute bg-gradient-to-r from-black "></div>
         </div>
@@ -61,6 +62,7 @@ const Acara = ({ data }) => {
                 </div>
               );
             })}
+            <Footer />
           </div>
         </div>
       </div>

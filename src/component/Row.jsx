@@ -14,7 +14,7 @@ const Row = ({data}) => {
   return (
     <div>
       <h2 className="text-white font-bold md:text-xl p-4"> Galery Kegiatan</h2>
-      <div className="relative flex items-center group scrollbar-hide">
+      <div className="flex items-center group scrollbar-hide">
         <MdChevronRight
           onClick={slideRight}
           size={20}
